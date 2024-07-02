@@ -40,8 +40,18 @@ pip install pandas numpy matplotlib seaborn scikit-learn tensorflow xgboost shap
 - Analyze correlations between features
 
 ### 3. Model Building
-- Train various machine learning models (e.g., Linear Regression, Decision Trees, XGBoost)
-- Train deep learning models (e.g., Neural Networks)
+- Train various machine learning models
+    - K Nearest Neighbor Regressor
+    - Gradient Boosting Regressor
+    - Random Forest Regressor
+    - Bagging Regressor
+    - Averaging Model
+      
+- Train various deep learning models
+    -  Deep Neural Network
+    -  Long Short-Term Memory
+    -  Long Short Term Memory with Particle Swarm Optimization
+    -  Gated Recurrent Unit
 
 ### 4. Model Evaluation
 - Evaluate models using appropriate metrics (e.g., MAE, RMSE, R²)
@@ -49,6 +59,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn tensorflow xgboost shap
 
 ### 5. Explainable AI (XAI)
 - Use SHAP (SHapley Additive exPlanations) to explain model predictions
+- Use LIME (Local Interpretable Model-Agnostic Explanations) to explain each individual prediction.
 - Visualize feature importance and contributions to predictions
 
 ## Usage
