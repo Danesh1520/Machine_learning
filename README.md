@@ -23,9 +23,9 @@ This project aims to predict wind power generation using various machine learnin
 
 You can install the necessary libraries using the following command:
 
-\`\`\`bash
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn tensorflow xgboost shap
-\`\`\`
+```
 
 ## Contents
 
@@ -63,6 +63,4 @@ The notebook provides detailed results of the model performance and the interpre
 
 This project is inspired by the need for accurate and interpretable predictions in the field of renewable energy, specifically wind power generation.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+For any questions or suggestions, please contact daneshdeepan@gmail.com.
